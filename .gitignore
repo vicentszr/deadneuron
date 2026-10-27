@@ -1,0 +1,14 @@
+# Secretos 
+.env
+
+# Dependencias de Node
+node_modules/
+
+# Sistema y Editor
+Thumbs.db
+.DS_Store
+.vscode/
+
+# Logs
+*.log
+
