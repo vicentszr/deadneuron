@@ -1,0 +1,103 @@
+:root {
+  --fondo: #101418;
+  --superficie: #1a2027;
+  --texto: #e8edf2;
+  --texto-suave: #9aa7b4;
+  --acento: #4dd0b1;
+  --radio: 10px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--fondo);
+  color: var(--texto);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  color: var(--acento);
+  text-decoration: none;
+}
+
+/* Cabecera */
+.cabecera {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background: var(--superficie);
+}
+
+.cabecera nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+/* Contenido */
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+section {
+  padding: 40px 0;
+}
+
+h2 {
+  margin-bottom: 12px;
+}
+
+.portada {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.portada p {
+  color: var(--texto-suave);
+}
+
+/* Entradas en rejilla */
+.rejilla {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.tarjeta {
+  background: var(--superficie);
+  border-radius: var(--radio);
+  padding: 20px;
+}
+
+.tarjeta h3 {
+  margin-bottom: 8px;
+  color: var(--acento);
+}
+
+/* Pie */
+footer {
+  text-align: center;
+  padding: 24px;
+  color: var(--texto-suave);
+  background: var(--superficie);
+}
+
+/* Móvil */
+@media (max-width: 600px) {
+  .cabecera {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .portada {
+    padding: 48px 0;
+  }
+}
