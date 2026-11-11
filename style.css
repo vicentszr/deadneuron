@@ -101,3 +101,13 @@ footer {
     padding: 48px 0;
   }
 }
+
+/* Modo claro */
+body.claro {
+  --fondo: #f4f6f8;
+  --superficie: #ffffff;
+  --texto: #1a2027;
+  --texto-suave: #55606b;
+  --acento: #0b8f74;
+}
+
