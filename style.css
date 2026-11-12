@@ -111,3 +111,29 @@ body.claro {
   --acento: #0b8f74;
 }
 
+input[type="search"] {
+  width: 100%;
+  max-width: 360px;
+  padding: 10px 12px;
+  margin-bottom: 16px;
+  background: var(--superficie);
+  color: var(--texto);
+  border: 1px solid var(--texto-suave);
+  border-radius: var(--radio);
+  font: inherit;
+}
+
+#tema {
+  background: transparent;
+  color: var(--acento);
+  border: 1px solid var(--acento);
+  border-radius: var(--radio);
+  padding: 6px 12px;
+  font: inherit;
+  cursor: pointer;
+}
+
+#tema:hover {
+  background: var(--acento);
+  color: var(--fondo);
+}
