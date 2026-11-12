@@ -9,7 +9,7 @@ if (hora < 14) {
 } else {
     saludo = "¡Buenas noches!";
 }
-bienvenido.textContent = saludo + 'Bienvenido al blog de deadneuron!';
+bienvenido.textContent = saludo + ', !Bienvenido al blog de deadneuron!';
 
 // 2. Modo claro y oscuro
 const botonTema = document.getElementById('tema');
