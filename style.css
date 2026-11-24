@@ -137,3 +137,13 @@ input[type="search"] {
   background: var(--acento);
   color: var(--fondo);
 }
+.campo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.error {
+  color: #e74c3c;
+  font-size: 0.85rem;
+}
